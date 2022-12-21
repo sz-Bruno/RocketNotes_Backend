@@ -1,6 +1,6 @@
 const knex= require('../database/knex')
 const AppError= require('../utils/apperror')
-const DiskStorage= require('../providers/DiskStorage')
+const DiskStorage= require('../PROVIDERS/DiskStorage')
 const { diskStorage } = require('multer')
 class Useravatarcontroller{
  async update(request,response){
